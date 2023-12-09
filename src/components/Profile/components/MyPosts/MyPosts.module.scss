@@ -1,0 +1,12 @@
+.myPosts {
+	padding: 10px;
+	.newPostArea {
+		width: 100%;
+		border: 1px solid #000;
+		display: grid;
+		grid-template-columns: 1fr 100px;
+		.textarea {
+			padding: 5px;
+		}
+	}
+}

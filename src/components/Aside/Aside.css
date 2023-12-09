@@ -1,0 +1,25 @@
+.aside {
+	background: rgba(113, 228, 209, 0.555);
+}
+.aside__list {
+	padding: 20px;
+}
+.aside__item {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.aside__item a {
+  color: #000;
+}
+
+.aside__item a.active {
+  color: gold;
+}
+
+.aside__friends{
+}
+.aside__friends-list{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 50px;
+}

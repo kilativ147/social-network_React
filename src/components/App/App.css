@@ -1,0 +1,20 @@
+.app-wrapper{
+  margin-inline: auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 5fr;
+  /* gap: 10px; */
+  grid-template-areas: 
+  'h h'
+  'a m'
+}
+
+
+.aside{
+  grid-area: a;
+}
+
+.profile{
+  grid-area: m;
+}

@@ -1,0 +1,14 @@
+.chats {
+	background: #91e091;
+  border-right: 1px solid #000;
+	&_list {
+	}
+	&_item {
+		text-align: center;
+		margin-block: 10px;
+		button {
+			font-size: 16px;
+			background-color: transparent;
+		}
+	}
+}

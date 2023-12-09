@@ -1,0 +1,29 @@
+.post {
+	margin-top: 15px;
+	padding: 5px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #000;
+	width: fit-content;
+	display: grid;
+	grid-template-columns: 50px auto auto;
+	gap: 10px;
+	.image {
+		border-radius: 50%;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	.text {
+	}
+	.likes {
+		align-self: end;
+		.likeButton {
+		}
+		.likeCount {
+		}
+	}
+}

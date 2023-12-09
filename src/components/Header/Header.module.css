@@ -1,0 +1,9 @@
+.header {
+	background-color: rgb(23, 168, 23);
+  grid-area: h;
+}
+.header img{
+  height: 100%;
+  aspect-ratio: 1;
+}
+
