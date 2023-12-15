@@ -1,5 +1,5 @@
-import { sendNewMessageCreator, updateMessageBodyCreator } from '../../../Redux/State'
 import s from './History.module.scss'
+import {sendNewMessageCreator, updateMessageBodyCreator} from "../../../Redux/reducers/dialogsReducer";
 
 const History = (props) => {
 	//# DRAW MESSAGE HISTORY

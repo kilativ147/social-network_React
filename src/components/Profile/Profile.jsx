@@ -1,3 +1,4 @@
+import {connect} from "react-redux";
 import MyPosts from "./components/MyPosts/MyPosts"
 import s from './Profile.module.css'
 
